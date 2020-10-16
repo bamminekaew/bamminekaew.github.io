@@ -9,6 +9,10 @@ body {
     font-family: 'Kanit';
 }
 
+p {
+    margin-bottom: 40px;
+}
+
 .header {
     height: 150px;
     background-color: rgb(95, 85, 153);
@@ -50,4 +54,17 @@ body {
     border-radius: 10px;
     background-color: rgb(153, 85, 144);
     color: rgb(252, 252, 245);
+}
+
+.maker {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.maker img {
+    height: 200px;
+    object-fit: contain;
+    background-color: teal;
+    border-radius: 5px;
 }
